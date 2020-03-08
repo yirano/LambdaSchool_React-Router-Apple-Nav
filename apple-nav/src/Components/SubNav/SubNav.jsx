@@ -1,6 +1,7 @@
 import React from 'react';
 
-const SubNav = () => {
+const SubNav = (props) => {
+  console.log('subNav', props.data[0]);
   return (
     <h1>SUBNAV</h1>
   )
