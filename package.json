@@ -4,6 +4,13 @@
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
     "react-is": "^16.13.0",
+    "react-router-dom": "^5.1.2",
     "styled-components": "^5.0.1"
-  }
+  },
+  "name": "React-Router-Apple-Nav",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/yirano/React-Router-Apple-Nav.git",
+  "author": "yirano <yirano@protonmail.ch>",
+  "license": "MIT"
 }
