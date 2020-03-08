@@ -1,12 +1,20 @@
 import React from 'react';
-import './App.css';
+import { Route } from 'react-router-dom';
+import styled from 'styled-components';
+import Nav from './Components/Nav/Nav'
+import SubNav from './Components/SubNav/SubNav'
+import './css/index.css';
 
-function App() {
+const AppWrapper = styled.ul`
+  list-style-type: none;
+`;
+const App = () => {
   return (
-    <div className="App">
-
-    </div>
-  );
+    <AppWrapper>
+      <Nav />
+      <Route path='' component={SubNav} />
+    </AppWrapper >
+  )
 }
 
 export default App;
