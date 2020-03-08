@@ -1,6 +1,9 @@
+import ipad from "./ipad";
+
 const data = [
   {
-    ipad: [
+    name: "ipad",
+    products: [
       {
         id: 0,
         item: "iPad Pro",
@@ -54,7 +57,8 @@ const data = [
     ]
   },
   {
-    iphone: [
+    name: "iphone",
+    products: [
       {
         id: 0,
         item: 'iPhone 11 Pro',
@@ -103,7 +107,8 @@ const data = [
     ]
   },
   {
-    mac: [
+    name: "mac",
+    products: [
       {
         id: 0,
         item: 'MacBook Air',

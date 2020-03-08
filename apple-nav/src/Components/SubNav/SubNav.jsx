@@ -1,9 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
+
 
 const SubNav = (props) => {
-  console.log('subNav', props.data[0]);
+  const [subNav, setSubNav] = useState();
+  const id = props.match.params.id;
+  console.log(props.data[0].products);
   return (
-    <h1>SUBNAV</h1>
+    <div>
+      {props.data.map(x => {
+        { console.log(x.products) }
+        return (x.name == id ?
+          <div>
+            <ul>
+              {x.products.map(product => {
+                return <li>{product.item}</li>
+              })}
+            </ul>
+          </div> : null
+        )
+      })}
+    </div>
   )
 }
 
