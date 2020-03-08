@@ -50,3 +50,5 @@ const ipad = [
     image: '/ipadOS'
   }
 ]
+
+export default ipad;
