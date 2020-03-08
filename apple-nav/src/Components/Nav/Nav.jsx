@@ -14,25 +14,25 @@ const Nav = () => {
     <nav>
       <ul>
         <li>
-          <NavLink className="styledNav" to="">Mac</NavLink>
+          <NavLink to="/imac">Mac</NavLink>
         </li>
         <li>
-          <NavLink to="">iPad</NavLink>
+          <NavLink to="/ipad">iPad</NavLink>
         </li>
         <li>
-          <NavLink to="">iPhone</NavLink>
+          <NavLink to="/iphone">iPhone</NavLink>
         </li>
         <li>
-          <NavLink to="">Watch</NavLink>
+          <NavLink to="/watch">Watch</NavLink>
         </li>
         <li>
-          <NavLink to="">TV</NavLink>
+          <NavLink to="/tv">TV</NavLink>
         </li>
         <li>
-          <NavLink to="">Music</NavLink>
+          <NavLink to="/music">Music</NavLink>
         </li>
         <li>
-          <NavLink to="">Support</NavLink>
+          <NavLink to="/support">Support</NavLink>
         </li>
       </ul >
     </nav>

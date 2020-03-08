@@ -12,7 +12,7 @@ const App = () => {
   return (
     <AppWrapper>
       <Nav />
-      <Route path='' component={SubNav} />
+      <Route path='/imac' component={SubNav} />
     </AppWrapper >
   )
 }
