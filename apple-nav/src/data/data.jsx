@@ -3,6 +3,7 @@ import ipad from "./ipad";
 const data = [
   {
     name: "ipad",
+    style: "light",
     products: [
       {
         id: 0,
@@ -58,6 +59,7 @@ const data = [
   },
   {
     name: "iphone",
+    style: "dark",
     products: [
       {
         id: 0,
@@ -108,6 +110,7 @@ const data = [
   },
   {
     name: "mac",
+    style: "light",
     products: [
       {
         id: 0,
@@ -152,7 +155,7 @@ const data = [
       {
         id: 8,
         item: "Pro Display XDR",
-        image: "mac_pro"
+        image: "pro_display_xdr"
       },
       {
         id: 9,
